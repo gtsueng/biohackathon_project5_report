@@ -1,22 +1,32 @@
 ---
-title: 'BioHackEU22 Template'
-title_short: 'BioHackEU22 #26: unknown chemical substances'
+title: 'Enabling profile updates through the Data Discovery Engine (DDE)'
+title_short: 'BioHackEU22 #5: Bioschemas profile updates'
 tags:
   - cheminformatics
   - PubChem
   - unknown chemical substances
 authors:
-  - name: First Author
+  - name: Nick Juty
+    orcid: 0000-0002-2036-8350
     affiliation: 1
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
+  - name: Ginger Tsueng
+    orcid: 0000-0001-9536-9115
     affiliation: 2
+  - name: Sahar Frika
+    affiliation: 
+  - name: Alasdair Gray
+    affiliation: 
+  - name: Alban Gaignard
+    affiliation: 
+  - name: Ivan Mičetić
+    affiliation: 
+    
 affiliations:
-  - name: First Affiliation
+  - name: University of Machester
     index: 1
-  - name: Second Affiliation
+  - name: The Scripps Research institute
     index: 2
-date: 8 November 2022
+date: 10 November 2022
 cito-bibliography: paper.bib
 event: BH22EU
 biohackathon_name: "BioHackathon Europe 2022"
@@ -27,13 +37,13 @@ group: Project 26
 git_url: https://github.com/biohackrxiv/publication-template
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
+authors_short: Nick Juty \emph{et al.}
 ---
 
 
 # Introduction
 
-As part of the BioHackathon Europe 2022, we here report...
+Bioschemas is an opinionated view on schema.org, targeting the Life Sciences community. This entails defining key data and resource ‘properties’ within specific communities which make those data more findable on the web. Over the past year, a number of these proposed types have been directly incorporated into schema.org. In an effort to build upon this success, we sought to improve the process of proposing ‘types’ and ‘profiles’ for new and existing users of bioschemas. The existing process has been deemed cumbersome, complex and convoluted. Furthermore, even when, for example, a profile is updated, there is an additional step required to put it on the bioschemas website. 
 
 # Formatting
 
