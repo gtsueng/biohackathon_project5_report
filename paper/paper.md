@@ -2,9 +2,9 @@
 title: 'Enabling profile updates through the Data Discovery Engine (DDE)'
 title_short: 'BioHackEU22 #5: Bioschemas profile updates'
 tags:
-  - cheminformatics
-  - PubChem
-  - unknown chemical substances
+  - metadata schema
+  - FAIR data
+  - documentation
 authors:
   - name: Nick Juty
     orcid: 0000-0002-2036-8350
