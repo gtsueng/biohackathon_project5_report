@@ -75,10 +75,12 @@ Issues with Bioschemas specifications are tracked using GitHub’s Issue tracker
 ## Community engagement and schema adoption
 During the initial introduction and midweek progress reports, many groups expressed interest in working with Bioschemas to ensure FAIRness of their hackathon outputs. As seen in Table 1, we met and began discussions with members of these groups with many discussions continuing well after the Biohackathon.
 
-Table:  Projects and discussions initiated during the Biohackathon
+
 | Project # | Project Title | Topic | Follow-up |
 | -------- | -------- | -------- | -------- |
+| item 1 | item 2 | item 3 | item 4 | 
 
+Table: Projects and discussions initiated during the Biohackathon
 
 # Discussion
 
