@@ -20,7 +20,7 @@ authors:
     affiliation: 
   - name: Ivan Mičetić
     affiliation: 
-  - nameL Leyla Jael Castro
+  - name: Leyla Jael Castro
     affiliation: 
   - name: Marcos Casado 
     affiliation: 
