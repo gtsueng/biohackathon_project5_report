@@ -20,6 +20,7 @@ authors:
     affiliation: 
   - name: Ivan Mičetić
     affiliation: 
+  - name: Marcos Casado 
     
 affiliations:
   - name: University of Machester
@@ -32,12 +33,12 @@ event: BH22EU
 biohackathon_name: "BioHackathon Europe 2022"
 biohackathon_url:   "https://biohackathon-europe.org/"
 biohackathon_location: "Paris, France, 2022"
-group: Project 26
+group: Project 5
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackrxiv/publication-template
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: Nick Juty \emph{et al.}
+authors_short: Juty, Tsueng \emph{et al.}
 ---
 
 
