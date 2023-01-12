@@ -83,10 +83,10 @@ The hackathon setting provided an ideal testing ground for the tutorials, additi
 # Results
 
 ## Tutorial and manual process improvements
-The specification creation and update processes both have  manual steps which must be accessible enough to be performed by members of Bioschemas Working Groups and the greater life sciences community. Those members may not necessarily have the technical skills or background to perform the pre-biohackathon process. With this in mind the tutorials were reviewed by those unfamiliar with the process prior to and during the Biohackathon. While tutorial improvements are expected to continue as part of an ongoing iterative process, Biohackathon participants identified process improvements which will be integrated pending wider community discussion and approval. For example, a pull request template was created during the Biohackathon, which should improve the overall ease and uniformity of the specification creation and update process.
+The specification creation and update processes both have  manual steps which must be accessible enough to be performed by members of Bioschemas Working Groups and the greater life sciences community. Those members may not necessarily have the technical skills or background to perform the pre-biohackathon process. With this in mind the tutorials were reviewed by those unfamiliar with the process prior to and during the Biohackathon. While tutorial improvements are expected to continue as part of an ongoing iterative process, Biohackathon participants identified process improvements which will be integrated pending wider community discussion and approval. For example, a pull request template [@pr_template] was created during the Biohackathon, which should improve the overall ease and uniformity of the specification creation and update process.
 
 ## Bioschemas specification updates
-Issues with Bioschemas specifications are tracked using GitHub’s Issue tracker including many long-standing profile update recommendations. We identified priority or long-standing  issues which could be addressed during the course of the Biohackathon and labeled them for easier follow-up. During the course of the Biohackathon, X GitHub issues were addressed during the creation of Y updated draft specification JSON-LD/JSON Schema files. Each of these files would be used to test and improve the robustness of the automated processes, in preparation for their integration. Since the Biohackathon, Z draft specification JSON-LD/JSON Schema files have been created, displayed on the Bioschemas website and registered in the DDE Schema Registry.
+Issues with Bioschemas specifications are tracked using GitHub’s Issue tracker [@gh_tracker] including many long-standing profile update recommendations. We identified priority or long-standing  issues which could be addressed during the course of the Biohackathon and labeled them for easier follow-up. During the course of the Biohackathon, X GitHub issues were addressed during the creation of Y updated draft specification JSON-LD/JSON Schema files. Each of these files would be used to test and improve the robustness of the automated processes, in preparation for their integration. Since the Biohackathon, Z draft specification JSON-LD/JSON Schema files have been created, displayed on the Bioschemas website and registered in the DDE Schema Registry.
 
 ## Automated process integration
 Each of the Z draft specification JSON-LD/JSON Schema files represented an opportunity to test the robustness of the automated website conversion script and DDE update script. During the process of testing the scripts, numerous exceptions and bugs were addressed by the >30 total commits made to the repositories. Both the automated website conversion script and DDE update scripts were officially merged into the master/main branch during the Biohackathon. Lastly, the integration was completed by updating the GitHub action for the DDE update script to follow changes made to the repository by the automated website conversion script/GitHub action.
@@ -111,7 +111,7 @@ Since the direct adoption, earlier this year, of some existing Bioschemas types 
 
 Over the course of the Biohackathon, we have:
 
-1. Improved documentation for existing tutorials, tested in situ by a naive user. Feedback has now largely been incorporated, and updated tutorials are linked here. 
+1. Improved documentation for existing tutorials, tested in situ by a naive user. Feedback has now largely been incorporated, and updated tutorials are linked here [@bsc_dde_tutorials]. 
 2. The process to populate new or updated types and profiles from DDE to the Bioschemas website has been implemented, productionised and tested for robustness.
 3. Using (1) and (2), X Bioschemas profiles have been updated and exposed through the website. 
 4. Tackled a number (X) of prioritized github issues to do with profiles and types, using DDE.
@@ -129,6 +129,10 @@ While the process for creating and updating Bioschemas profiles has been improve
 * Bioschemas DDE integration repository: https://github.com/BioSchemas/bioschemas-dde
 * Bioschemas project 5 repository for Biohackathon: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/5
 * Bioschemas tutorial feedback: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/5/feedback
+* Project introduction slides: https://docs.google.com/presentation/d/1lJJUtIMR-mE8Zza4Luq-xJtf1fAlQNWVFiRMNvWCVUQ/edit#slide=id.p1
+* Project mid-report slides: https://docs.google.com/presentation/d/1Kh6CscFFqbkOsmRZYkOuaTeHh_MBijpX-y31colrlfA/edit#slide=id.p6
+* Project final report slides: https://docs.google.com/presentation/d/1AuLhyI1V1QNRJFl3jn3uxZSo1G-UaqRlDAiuJW7JYjY/edit#slide=id.g188d9bb6b51_0_180
+* Project BioHackrXiv paper repository: https://github.com/gtsueng/biohackathon_project5_report/
 
 # Contributions
 NJ introduced the project and furnished all required progress reports. NJ and GT wrote the BioHackRxiv report. GT, NJ, and AJGG generated updated specifications (profiles and types). GT, SF, and AJGG worked on the integration of the automated processes. NJ, LJG, AJGG, and MCB provided  feedback on the tutorials, overall process, and created the pull request template. LJG, GT, and AJGG improved and integrated the tutorials. NJ, GT, AJGG, LJG, IM, and AG engaged in Bioschemas discussions with other projects.    
@@ -140,61 +144,3 @@ Much of this work and key discussions were initiated at the ELIXIR Biohackathon 
 # References
 
 
-# Formatting
-
-This document use Markdown and you can look at [this tutorial](https://www.markdowntutorial.com/).
-
-## Subsection level 2
-
-Please keep sections to a maximum of only two levels.
-
-## Tables and figures
-
-Tables can be added in the following way, though alternatives are possible:
-
-| Header 1 | Header 2 |
-| -------- | -------- |
-| item 1 | item 2 |
-| item 3 | item 4 |
-
-Table: Note that table caption is automatically numbered.
-
-A figure is added with:
-
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
-
-# Other main section on your manuscript level 1
-
-Lists can be added with:
-
-1. Item 1
-2. Item 2
-
-# Citation Typing Ontology annotation
-
-You can use CiTO annotations, as explained in [this BioHackathon Europe 2021 write up](https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md) and [this CiTO Pilot](https://www.biomedcentral.com/collections/cito).
-Using this template, you can cite an article and indicate why you cite that article, for instance DisGeNET-RDF [@citesAsAuthority:Queralt2016].
-
-Possible CiTO typing annotation include:
-
-* citesAsDataSource: when you point the reader to a source of data which may explain a claim
-* usesDataFrom: when you reuse somehow (and elaborate on) the data in the cited entity
-* usesMethodIn
-* citesAsAuthority
-* discusses
-* extends
-* agreesWith
-* disagreesWith
-
-# Results
-
-
-# Discussion
-
-...
-
-## Acknowledgements
-
-...
-
-## References
