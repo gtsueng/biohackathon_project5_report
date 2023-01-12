@@ -123,12 +123,12 @@ The Biohackathon provided a unique opportunity to engage with, in an interactive
 While the process for creating and updating Bioschemas profiles has been improved with automation during the Biohackathon, this process currently is only partially automated for the creation and update of Bioschemas types. In the future, the process for creating and updating both Bioschemas types will be included. Further, the current tutorials do not delve into how to use the DDE Schema Playground's validation editor as this tools are subject to improvement.
 
 # Code, repositories, and links
-Bioschemas website repository: https://github.com/BioSchemas/bioschemas.github.io
-Bioschemas draft tutorials: https://alasdairgray.github.io/bioschemas.github.io/tutorials/dde/
-Bioschemas specification repository: https://github.com/BioSchemas/specifications
-Bioschemas DDE integration repository: https://github.com/BioSchemas/bioschemas-dde
-Bioschemas project 5 repository for Biohackathon: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/5
-Bioschemas tutorial feedback: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/5/feedback
+* Bioschemas website repository: https://github.com/BioSchemas/bioschemas.github.io
+* Bioschemas draft tutorials: https://alasdairgray.github.io/bioschemas.github.io/tutorials/dde/
+* Bioschemas specification repository: https://github.com/BioSchemas/specifications
+* Bioschemas DDE integration repository: https://github.com/BioSchemas/bioschemas-dde
+* Bioschemas project 5 repository for Biohackathon: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/5
+* Bioschemas tutorial feedback: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/5/feedback
 
 # Contributions
 NJ introduced the project and furnished all required progress reports. NJ and GT wrote the BioHackRxiv report. GT, NJ, and AJGG generated updated specifications (profiles and types). GT, SF, and AJGG worked on the integration of the automated processes. NJ, LJG, AJGG, and MCB provided  feedback on the tutorials, overall process, and created the pull request template. LJG, GT, and AJGG improved and integrated the tutorials. NJ, GT, AJGG, LJG, IM, and AG engaged in Bioschemas discussions with other projects.    
