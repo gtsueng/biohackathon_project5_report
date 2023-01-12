@@ -82,30 +82,45 @@ The hackathon setting provided an ideal testing ground for the tutorials, additi
 
 # Results
 
-## Tutorial improvements
-
+## Tutorial and manual process improvements
+The specification creation and update processes both have  manual steps which must be accessible enough to be performed by members of Bioschemas Working Groups and the greater life sciences community. Those members may not necessarily have the technical skills or background to perform the pre-biohackathon process. With this in mind the tutorials were reviewed by those unfamiliar with the process prior to and during the Biohackathon. While tutorial improvements are expected to continue as part of an ongoing iterative process, Biohackathon participants identified process improvements which will be integrated pending wider community discussion and approval. For example, a pull request template was created during the Biohackathon, which should improve the overall ease and uniformity of the specification creation and update process.
 
 ## Bioschemas specification updates
-Issues with Bioschemas specifications are tracked using GitHub’s Issue tracker including many long-standing profile update recommendations. We identified issues which could be addressed during the course of the Biohackathon and labeled them for easier follow-up. During the course of the Biohackathon, X GitHub issues were addressed during the creation of Y updated draft specification JSON-LD/JSON Schema files. Each of these files would be used to test and improve the robustness of the automated processes, in preparation for their integration. Since the Biohackathon, Z draft specification JSON-LD/JSON Schema files have been created, displayed on the Bioschemas website and registered in the DDE Schema Registry
+Issues with Bioschemas specifications are tracked using GitHub’s Issue tracker including many long-standing profile update recommendations. We identified priority or long-standing  issues which could be addressed during the course of the Biohackathon and labeled them for easier follow-up. During the course of the Biohackathon, X GitHub issues were addressed during the creation of Y updated draft specification JSON-LD/JSON Schema files. Each of these files would be used to test and improve the robustness of the automated processes, in preparation for their integration. Since the Biohackathon, Z draft specification JSON-LD/JSON Schema files have been created, displayed on the Bioschemas website and registered in the DDE Schema Registry.
 
 ## Automated process integration
-
+Each of the Z draft specification JSON-LD/JSON Schema files represented an opportunity to test the robustness of the automated website conversion script and DDE update script. During the process of testing the scripts, numerous exceptions and bugs were addressed by the >30 total commits made to the repositories. Both the automated website conversion script and DDE update scripts were officially merged into the master/main branch during the Biohackathon. Lastly, the integration was completed by updating the GitHub action for the DDE update script to follow changes made to the repository by the automated website conversion script/GitHub action.
 
 ## Community engagement and schema adoption
-During the initial introduction and midweek progress reports, many groups expressed interest in working with Bioschemas to ensure FAIRness of their hackathon outputs. As seen in Table 1, we met and began discussions with members of these groups with many discussions continuing well after the Biohackathon.
+During the initial introduction and midweek progress reports, many groups expressed interest in working with Bioschemas to ensure FAIRness of their hackathon outputs. As seen in Table 1, we met and began discussions with representatives or individual members of these groups with many discussions continuing well after the Biohackathon.
 
 
 | Project # | Project Title | Topic | Follow-up |
 | -------- | -------- | -------- | -------- |
-| item 1 | item 2 | item 3 | item 4 | 
+| 15 | Infrastructure for Synthetic Health Data | Synthetic Health Data | Mappings drafted |
+| 09, 17 | Disseminating FAIR Machine Learning Models via BioModels, Metadata schemas supporting Linked Open Science (with a focus on reproducibility) | BioModels and BioImaging/ML | Bioschemas Working Group to be created |
+| 22 | Plant data exchange and standard interoperability | StudyEvent, LabProtocol, Plant | Further discussions needed, profile tweaking |
+| 11, 23 | Enhancement and Reusage of Biomedical Knowledge Graph Subsets, Publishing and Consuming Schema.org DataFeeds | ChemicalSubstances, MolecularEntities | Profiles updated |
+| 32 | Training booster: developing FAIR training materials and Learning Paths | BioSamples | Meetings Scheduled; 1st meeting (2022/2/01) |
+| 19 | Nightingale 4.0 - Reusable web components for accelerating end-users access to tools platform metadata | interpro applications | Possible profile updates which can be implemented |
 
 Table: Projects and discussions initiated during the Biohackathon
 
 # Discussion
+Since the direct adoption, earlier this year, of some existing Bioschemas types into Schema.org, it has become apparent that the process of developing more types needs to be addressed; the pre-existing process was technically and practically convoluted, and had a technical barrier that was unduly high for envisaged users. While this was the primary motivation for this project at the biohackathon, we additionally targeted other activities and tasks to facilitate community engagement and address concerns.
 
+Over the course of the Biohackathon, we have:
 
-# Future directions
+1. Improved documentation for existing tutorials, tested in situ by a naive user. Feedback has now largely been incorporated, and updated tutorials are linked here. 
+2. The process to populate new or updated types and profiles from DDE to the Bioschemas website has been implemented, productionised and tested for robustness.
+3. Using (1) and (2), X Bioschemas profiles have been updated and exposed through the website. 
+4. Tackled a number (X) of prioritized github issues to do with profiles and types, using DDE.
+5. Engaged with a number of resource representatives (Table 1) to incorporate Bioschemas markup, or improve it to updated versions, as appropriate.
 
+The Biohackathon provided a unique opportunity to engage with, in an interactive manner, both a normally distributed implementation team of software engineers, as well as community members. This massively accelerated the speed with which we have engineered process improvements, as well as identifying further emergent communities, and engaging with existing communities to exchange knowledge and needs.
+
+## Future directions
+While the process for creating and updating Bioschemas profiles has been improved with automation during the Biohackathon, this process currently is only partially automated for the creation and update of Bioschemas types. In the future, the process for creating and updating both Bioschemas types will be included. Further, the current tutorials do not delve into how to use the DDE Schema Playground's validation editor as this tools are subject to improvement.
 
 # Code, repositories, and links
 Bioschemas website repository: https://github.com/BioSchemas/bioschemas.github.io
@@ -116,10 +131,10 @@ Bioschemas project 5 repository for Biohackathon: https://github.com/elixir-euro
 Bioschemas tutorial feedback: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/5/feedback
 
 # Contributions
-NJ introduced the project and furnished all required progress reports. NJ and GT wrote the BioHackRxiv report. GT, NJ, and AJGG generated updated specifications (profiles and types). GT, SF, and AJGG worked on the integration of the automated processes. NJ, LJG, AJGG, and MC provided helpful feedback on the tutorials. LJG, GT, and AJGG improved and integrated the tutorials. NJ, GT, AJGG, LJG, IM, and AG engaged in Bioschemas discussions with other projects.  
+NJ introduced the project and furnished all required progress reports. NJ and GT wrote the BioHackRxiv report. GT, NJ, and AJGG generated updated specifications (profiles and types). GT, SF, and AJGG worked on the integration of the automated processes. NJ, LJG, AJGG, and MCB provided  feedback on the tutorials, overall process, and created the pull request template. LJG, GT, and AJGG improved and integrated the tutorials. NJ, GT, AJGG, LJG, IM, and AG engaged in Bioschemas discussions with other projects.    
 
 # Acknowledgments
-Much of this work and key discussions were initiated at the ELIXIR Biohackathon Europe, 2022 held in November. We thank ELIXIR, the research infrastructure for life-science data, for organizing and sponsoring this event which gathered individuals from different communities of practice enabling us to make progress on several Bioschemas community efforts. We thank Egon Willighagen, Sara EL-Gebali, Núria Queralt Rosinach, Marco Brandizi, … for engaging in and/or organizing fruitful discussions. Lastly, we would especially like to thank Dana Cernoskova, Katharina Heil, and other members of the biohackathon organizing committee for their ongoing support throughout the event.
+Much of this work and key discussions were initiated at the ELIXIR Biohackathon Europe, 2022 held in November. We thank ELIXIR, the research infrastructure for life-science data, for organizing and sponsoring this event which gathered individuals from different communities of practice enabling us to make progress on several Bioschemas community efforts. We thank Egon Willighagen, Sara EL-Gebali, Núria Queralt Rosinach, Marco Brandizi, Rahuman Sheriff Malik Sheriff, Beatriz Serrano-Solano, Nils Hoffmann, Gustavo A. Salazar, Cyril Pommier and Steffan Neumann for engaging in and/or organizing fruitful discussions. Lastly, we would especially like to thank Dana Cernoskova, Katharina Heil, and other members of the Biohackathon organizing committee for their ongoing support throughout the event.
 
 
 # References
