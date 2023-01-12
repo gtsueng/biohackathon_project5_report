@@ -78,7 +78,7 @@ The hackathon setting provided an ideal testing ground for the tutorials, additi
 1. Refine tutorials based on user feedback
 2. Update a number of Bioschemas profiles using DDE and tutorials
 3. Invite hackathon participants to work on new profiles and consider the use of Bioschemas for annotating their resouce
-4. Engage with ELIXIR Core Data Resources (CDRs) and Deposition Databases (DDs) to push for Bioschemas adoption
+4. Engage with ELIXIR Core Data Resources [@elixir_cdrs] (CDRs) and Deposition Databases (DDs) to push for Bioschemas adoption
 
 # Results
 
